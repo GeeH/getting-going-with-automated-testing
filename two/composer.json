@@ -1,0 +1,13 @@
+{
+    "name": "geeh/getting-started-with-testing-two",
+    "description": "Workshop files",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Gary Hockin",
+            "email": "geeh@roave.com"
+        }
+    ],
+    "require": {}
+}
