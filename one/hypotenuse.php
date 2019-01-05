@@ -6,6 +6,4 @@ function hypotenuse($firstSide, float $secondSide): float
     return sqrt($firstSide * $firstSide + $secondSide * $secondSide);
 }
 
-echo hypotenuse(3.0, 4.0); // should be 5
-
-// php -S 0.0.0.0:8080
+assert(hypotenuse(3, 4) === 5.0, "Hypotenuse of 3 & 4 should be 5");
