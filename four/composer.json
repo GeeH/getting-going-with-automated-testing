@@ -1,0 +1,26 @@
+{
+    "name": "geeh/getting-started-with-testing-two",
+    "description": "Workshop files",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Gary Hockin",
+            "email": "geeh@roave.com"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^7.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Pointless\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Test\\Pointless\\": "test"
+        }
+    }
+}
