@@ -6,6 +6,6 @@ class HypotenuseTest extends \PHPUnit\Framework\TestCase
     {
         $hypotenuse = new \Hypotenuse\Hypotenuse();
 
-        self::assertEquals(14.866, $hypotenuse->complexHypotenuse(10, 11));
+        self::assertEquals(14.866068747318506, $hypotenuse->complexHypotenuse(10, 11));
     }
 }
