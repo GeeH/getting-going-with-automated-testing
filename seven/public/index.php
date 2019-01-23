@@ -43,7 +43,7 @@ $data = $controller(isset($_GET['id']) ? (int)$_GET['id'] : 0);
         <a class="p-2 text-dark" href="#">Support</a>
         <a class="p-2 text-dark" href="#">Pricing</a>
     </nav>
-    <a class="btn btn-outline-primary" href="#"><?= $data[0]->name; ?></a>
+    <a class="btn btn-outline-primary" href="#" onclick="document.getElementById('error-thing').style.display = 'block';"><?= $data[0]->name; ?></a>
 </div>
 
 <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
@@ -52,6 +52,7 @@ $data = $controller(isset($_GET['id']) ? (int)$_GET['id'] : 0);
 </div>
 
 <div class="container">
+    <div class="alert" style="display:none;" id="error-thing">WHY DID YOU CLICK THAT????</div>
     <div class="card-deck mb-3 text-center">
         <div class="card mb-4 shadow-sm">
             <div class="card-header">
